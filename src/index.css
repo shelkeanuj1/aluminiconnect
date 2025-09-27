@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f9fafb;
+}
+
+.bg-white {
+  background-color: hsl(180, 23%, 97%)
+}
+
+.bg-gray-50 {
+  background-color: #e4e8f7 !important; /*main background*/
+}
+
+.bg-blue-50, .bg-green-50, .bg-purple-50, .bg-orange-50, .bg-yellow-50, .bg-teal-50, .bg-pink-50 {
+  background-color: #e4e8f7!important;
+}
+
+.bg-blue-100, .bg-green-100, .bg-purple-100, .bg-orange-100, .bg-yellow-100, .bg-teal-100, .bg-pink-100 {
+  background-color: #eacece !important;
+}
+
+.bg-gray-100 {
+  background-color: #9fbae8 !important;
+}
+
+.hover\:bg-gray-50:hover {
+  background-color: #9fbae8 !important;  /*cursor*/
+}
+
+.hover\:bg-gray-100:hover {
+  background-color: #9fbae8 !important;
+}
+
+.hover\:bg-blue-50:hover, .hover\:bg-green-50:hover, .hover\:bg-purple-50:hover, .hover\:bg-orange-50:hover, .hover\:bg-yellow-50:hover {
+  background-color: #9fbae8 !important;
+}
+
+.hover\:bg-blue-100:hover, .hover\:bg-green-100:hover, .hover\:bg-purple-100:hover, .hover\:bg-orange-100:hover, .hover\:bg-yellow-100:hover {
+  background-color: #96b9e9 !important; /*search page*/
+}
